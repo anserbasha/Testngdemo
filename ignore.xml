@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Ignore_This">
+    <classes>
+      <class name="org.testng.demo.Ignore_Test"/>
+<methods>
+<exclude name = "searchMobile"/>
+<exclude name = "searchLaptop"/>
+</methods>
+    </classes>>
+  </test> <!-- Ignore_This -->
+</suite> <!-- Suite -->
